@@ -1,0 +1,23 @@
+nm=(input().split())
+n=int(nm[0])
+m=int(nm[1])
+arr=list(map(int,input().split()))
+happiness=0 #count is used #count=0
+
+a=set(map(int,input().split()))
+b=set(map(int,input().split()))
+for i in arr:  #consider arr=[input]
+    if i in a:
+       happiness+=1
+   #happiness=happiness+1
+    if i in b:    
+        happiness-=1 
+    #happiness=happiness-1 
+print(happiness)
+
+
+#consider arr=[input]
+if arr element in a 
+happiness pt +=1 for each element present
+if it is in b
+happiness point-=1 for each element present 
